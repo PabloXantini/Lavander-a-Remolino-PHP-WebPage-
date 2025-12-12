@@ -146,6 +146,24 @@ body{
     padding-bottom: 60px;
     border-radius: 20px;
 }
+.main-table{
+    border-spacing: 4px;
+    text-align: center;
+}
+.main-table thead{
+    background-color: #68AAEA;
+}
+.main-table thead th{
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 22px;
+}
+.main-table tbody td{
+    padding: 20px 10px;
+    border-radius: 5px;
+    border: 1px #7690AB solid;
+    font-size: 16px;
+}
 #map1{
     border-radius: 20px;
     width: 100%;

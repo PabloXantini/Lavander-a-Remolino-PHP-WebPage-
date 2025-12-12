@@ -8,5 +8,38 @@
                 <iframe class="card-video" width="560" height="315" src="https://www.youtube.com/embed/15y3ccW4r8I?si=kuqDRKKkUf5g-vEy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div>
+        <div class="main-card">
+            <div class="main-card-media-container">
+                <table class="main-table">
+                    <thead>
+                        <th>Tipo de servicios</th>
+                        <th>Duración del ciclo</th>
+                        <th>Capacidad operativa aproximada</th>
+                        <th>Coste aproximado</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Lavado/Secado Intensivos</td>
+                            <td rowspan="3">45 min</td>
+                            <td>15-18 kg</td>
+                            <td>$50-$60</td>
+                        </tr>
+                        <tr>
+                            <td>Lavado/Secado Moderado</td>
+                            <td>19-30 kg</td>
+                            <td>$61-$85</td>
+                        </tr>
+                        <tr>
+                            <td>Lavado/Secado Ligero</td>
+                            <td>31-60 kg</td>
+                            <td>$85-$120</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div><div class="main-card-info">
+                <h3 class="big3-text fc-theme1">Servicio y horarios flexibles</h3>
+                <p class="mid5-text-2">Somo una lavandería que opera diariamente, solo agenda un día para lavar y su espacio estara reservado solo para usted. Contamos con una gran gran variedad de opciones para que usted lave de acuerdo a sus necesidades.</p>
+            </div>
+        </div>
     </div>
 </div>
