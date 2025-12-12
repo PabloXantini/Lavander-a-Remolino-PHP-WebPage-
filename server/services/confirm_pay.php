@@ -18,7 +18,7 @@
     $add_pay = "INSERT INTO pagos (id_reserva, pago_total, comprobante) VALUES (
         '$id_reserve',
         '$total',
-        '$file_name'
+        '$path'
     )";
     $query = mysqli_query($CONNECTION,$add_pay);
     if($query){

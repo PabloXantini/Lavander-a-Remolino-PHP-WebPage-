@@ -29,3 +29,35 @@
 .card-menu:last-of-type{
     margin-right: 0px;
 }
+.download-btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1F2933;
+    color: white;
+    font-size: 18px;
+}
+.delete-btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #880000;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.table-view-container{
+    padding: 40px 0px;
+}
+.table-view{
+    width: 100%;
+    font-size: 20px;
+}
+.table-view tbody tr td{
+    padding: 10px;
+    text-align: center;
+    border: 1px #1F2933 solid;
+}
+.table-header-view{
+    background-color: #68AAEA;
+    color:#1F2933;
+    font-size: 32px;;
+}

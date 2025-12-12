@@ -21,7 +21,7 @@
     ?>
     <div class="main-content">
         <div class="info-content">
-            
+            <?php include "../components/paymentsview.php"?>
         </div>
     </div>
 </body>
