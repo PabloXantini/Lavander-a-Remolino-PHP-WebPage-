@@ -2,7 +2,7 @@
     <div class="logo-header-container">
     </div>
     <div class="form-content-container">
-        <form action="../server/services/.php" method="post" id="reserve-wash-form">
+        <form action="../../../../server/services/.php" method="post" id="reserve-dry-form">
             <div class="form-title-container centered">
                 <h1 class="big3-text fc-theme4">Reservar día para el secado de ropa</h1>
             </div>
@@ -14,18 +14,18 @@
                 </select>
                 <label for="i-date-4"><h3 class="mid5-text fc-theme1">Seleccione el día</h3></label>
                 <input type="date" class="form-field-2" name="DATE" id="i-date-4">
-                <input type="number" class="form-field-2" name="CYCLES" id="i-cycles-4" placeholder="Establezca el número de ciclos">
+                <input type="number" class="form-field-2" name="CYCLES" id="i-cycles-4" min="1" max="7" placeholder="Establezca el número de ciclos">
                 <label for="i-schedule-4"><h3 class="mid5-text fc-theme1">Seleccione el horario</h3></label>
-                <input type="time" class="form-field-2" name="SCH_INIT" id="i-schedule-4" step="2700">
+                <input type="time" class="form-field-2" name="SCH_INIT" id="i-schedule-4" min="7:00:00" max="21:00:00" step="2700">
             </div>
             <div class="form-button-container">
-                <button class="form-button register-btn" type="button" id="send-reserve-wash-btn">Realizar la reserva</button>
+                <button class="form-button register-btn" type="button" id="send-reserve-dry-btn">Realizar la reserva</button>
             </div>
         </form>
     </div>
 </div>
 <script type="text/javascript">
-    $("#send-reserve-wash-btn").click(function (){
+    $("#send-reserve-dry-btn").click(function (){
         if(fieldEmpty("i-machines-1")){
             alert("Por favor especifique la lavadora que va a usar");
             focusInput("i-machines-1");
@@ -61,7 +61,7 @@
             focusInput("i-cycles-4");
             return;
         }
-        document.getElementById("reserve-wash-form").submit();
+        document.getElementById("reserve-dry-form").submit();
     });
     function fieldEmpty(tag){
         return $("#"+tag).val().trim()==="";

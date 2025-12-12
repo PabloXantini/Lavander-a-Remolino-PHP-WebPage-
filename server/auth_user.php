@@ -37,7 +37,7 @@
         $user_row = mysqli_fetch_assoc($query);
         session_start();
         $_SESSION['auth_user']="yes";
-        $_SESSION['id']=$user_row['id_usuario'];
+        $_SESSION['id_user']=$user_row['id_cliente'];
         $_SESSION['firstname']=$user_row['nombres'];
         $_SESSION['lastname']=$user_row['apellidos'];
         $_SESSION['privileges']=$user_row['nombre'];
