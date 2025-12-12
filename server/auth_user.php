@@ -2,8 +2,8 @@
     require "db.php";
     $s_email = addslashes($_POST["EMAIL"]);
     $s_password = addslashes($_POST["PASSWORD"]);
-    $next = "../../public/app/dashboard.php";
-    $back = "../../public/login.php";
+    $next = "../public/app/dashboard.php";
+    $back = "../public/login.php";
     if(
         empty($s_email) ||
         empty($s_password)

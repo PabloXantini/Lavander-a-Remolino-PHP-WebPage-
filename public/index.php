@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/mainstyles.css">
     <link rel="stylesheet" href="css/formstyles.css">
     <link rel="shortcut icon" href="res/favicon.ico" type="image/x-icon">
-    <script
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 </head>
 <body>
     <?php include_once "components/header.php"?>

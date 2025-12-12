@@ -11,7 +11,7 @@
             </div>
             <div class="h-menu-c-container">
                 <a href="login.php" class="h-menu-button bg-theme2">
-                    Inicie sesión
+                    Iniciar sesión
                 </a>
             </div>
         </div>

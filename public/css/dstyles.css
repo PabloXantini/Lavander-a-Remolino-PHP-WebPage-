@@ -1,0 +1,31 @@
+.menu-container{
+    padding: 50px;
+}
+.menu{
+    padding: 10px;
+}
+.menu-layout{
+    padding: 30px;
+    text-align: center;
+}
+.card-menu{
+    display: inline-block;
+    vertical-align: middle;
+    width: 300px;
+    min-height: 250px;
+    margin: auto;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #68AAEA;
+    border-radius: 20px;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+}
+.card-menu:hover{
+    scale: 105%;
+    transition: 0.2s ease-in-out;
+}
+.card-menu:last-of-type{
+    margin-right: 0px;
+}

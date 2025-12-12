@@ -205,6 +205,9 @@ body{
 .bg-theme4{
     background-color: #1F2933;
 }
+.bg-close{
+    background-color: #880000;
+}
 .fc-white{
     color: white;
 }
