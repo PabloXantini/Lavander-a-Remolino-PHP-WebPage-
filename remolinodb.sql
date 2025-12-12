@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 12-12-2025 a las 17:43:33
+-- Tiempo de generación: 12-12-2025 a las 20:56:02
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -89,6 +89,15 @@ CREATE TABLE `pagos` (
   `comprobante` varchar(128) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Volcado de datos para la tabla `pagos`
+--
+
+INSERT INTO `pagos` (`id_pago`, `id_reserva`, `pago_total`, `comprobante`) VALUES
+(1, 3, 4000.00, ''),
+(2, 3, 5000.00, ''),
+(3, 2, 3000.00, '');
+
 -- --------------------------------------------------------
 
 --
@@ -125,6 +134,18 @@ CREATE TABLE `reservas` (
   `hora_final` varchar(12) DEFAULT NULL,
   `ciclos` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Volcado de datos para la tabla `reservas`
+--
+
+INSERT INTO `reservas` (`id_reserva`, `id_cliente`, `id_equipo`, `fecha`, `hora_inicio`, `hora_final`, `ciclos`) VALUES
+(1, 0, 3, '2025-12-23', '17:15', NULL, 3),
+(2, 0, 3, '2025-12-10', '15:00', NULL, 4),
+(3, 0, 5, '2025-12-25', '19:30', NULL, 3),
+(4, 0, 5, '2025-12-25', '07:30', NULL, 3),
+(5, 3, 4, '2025-12-22', '19:30', NULL, 4),
+(6, 3, 5, '2025-12-25', '16:30', NULL, 3);
 
 -- --------------------------------------------------------
 
@@ -257,7 +278,7 @@ ALTER TABLE `equipos`
 -- AUTO_INCREMENT de la tabla `pagos`
 --
 ALTER TABLE `pagos`
-  MODIFY `id_pago` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_pago` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT de la tabla `precios`
@@ -269,7 +290,7 @@ ALTER TABLE `precios`
 -- AUTO_INCREMENT de la tabla `reservas`
 --
 ALTER TABLE `reservas`
-  MODIFY `id_reserva` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_reserva` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT de la tabla `roles`

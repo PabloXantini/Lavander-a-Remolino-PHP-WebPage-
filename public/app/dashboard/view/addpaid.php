@@ -21,7 +21,7 @@
     ?>
     <div class="main-content">
         <div class="info-content">
-            
+            <?php include "../../forms/paid_form.php"?>
         </div>
     </div>
 </body>
