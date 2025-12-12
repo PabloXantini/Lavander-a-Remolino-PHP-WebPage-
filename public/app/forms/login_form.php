@@ -20,17 +20,17 @@
     $("#send-login-btn").click(function (){
         if(fieldEmpty("i-email-2")){
             alert("Por favor escribe tu correo electrónico");
-            focusInput("i-email-2")
+            focusInput("i-email-2");
             return;
         }
         if(fieldEmpty("i-password-2")){
             alert("Por favor, escribe tu contraseña");
-            focusInput("i-password-2")
+            focusInput("i-password-2");
             return;
         }
         if(notValidMatch("i-email-2")){
             alert("Por favor, escribe correctamente tu correo electrónico");
-            focusInput("i-email-2")
+            focusInput("i-email-2");
             return;
         }
         document.getElementById("login-form").submit();

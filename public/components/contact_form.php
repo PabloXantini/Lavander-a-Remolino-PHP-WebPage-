@@ -23,27 +23,27 @@
     $("#send-contact-btn").click(function (){
         if(fieldEmpty("i-name-1")){
             alert("Por favor escribe tu nombre");
-            focusInput("i-name-1")
+            focusInput("i-name-1");
             return;
         }
         if(fieldEmpty("i-email-1")){
             alert("Por favor escribe tu correo electrónico");
-            focusInput("i-email-1")
+            focusInput("i-email-1");
             return;
         }
         if(fieldEmpty("i-comments")){
             alert("Por favor, escribe algún comentario");
-            focusInput("i-comments")
+            focusInput("i-comments");
             return;
         }
         if(notValidMatch("i-email-1")){
             alert("Por favor, escribe correctamente tu correo electrónico");
-            focusInput("i-email-1")
+            focusInput("i-email-1");
             return;
         }
         if(notValidMatch("i-tel-1")&&!fieldEmpty("i-tel-1")){
             alert("Por favor, escribe correctamente tu teléfono");
-            focusInput("i-tel-1")
+            focusInput("i-tel-1");
             return;
         }
         document.getElementById("contact-form").submit();
