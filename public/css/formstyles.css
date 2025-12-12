@@ -56,6 +56,9 @@ textarea.form-field-1{
     min-height: 200px;
     resize: vertical;
 }
+.form-select-1{
+    padding: 10px;
+}
 .halved{
     display: inline-block;
     vertical-align: top;

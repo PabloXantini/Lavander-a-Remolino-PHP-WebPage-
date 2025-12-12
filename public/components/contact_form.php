@@ -47,6 +47,7 @@
             return;
         }
         document.getElementById("contact-form").submit();
+        alert("Tus datos de contactos se enviaron correctamente.");
     });
     function fieldEmpty(tag){
         return $("#"+tag).val().trim()==="";

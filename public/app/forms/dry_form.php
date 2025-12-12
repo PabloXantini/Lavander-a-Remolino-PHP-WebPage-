@@ -4,13 +4,13 @@
     <div class="form-content-container">
         <form action="../server/services/.php" method="post" id="reserve-wash-form">
             <div class="form-title-container centered">
-                <h1 class="big3-text fc-theme4">Reservar día para el lavado de ropa</h1>
+                <h1 class="big3-text fc-theme4">Reservar día para el secado de ropa</h1>
             </div>
             <div class="form-field-container">
                 <h3 class="mid5-text fc-theme1">Ingrese los datos necesarios</h3>
                 <select name="MACHINES" id="i-machines-1" class="form-field-2">
                     <option value="">Seleccione una máquina</option>
-                    <?php include "../../../../server/services/request_wash.php";?>
+                    <?php include "../../../../server/services/request_dry.php";?>
                 </select>
                 <label for="i-date-4"><h3 class="mid5-text fc-theme1">Seleccione el día</h3></label>
                 <input type="date" class="form-field-2" name="DATE" id="i-date-4">

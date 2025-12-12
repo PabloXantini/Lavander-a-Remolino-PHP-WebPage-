@@ -21,7 +21,7 @@
     ?>
     <div class="main-content">
         <div class="info-content">
-            
+            <?php include "../../forms/dry_form.php"?>
         </div>
     </div>
 </body>
