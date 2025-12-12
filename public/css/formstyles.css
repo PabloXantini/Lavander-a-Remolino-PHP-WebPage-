@@ -1,0 +1,94 @@
+.form-container{
+    margin: 20px 0px;
+    padding: 20px;
+    border: 2px #7690AB solid;
+    border-radius: 10px;
+}
+.login-form{
+    width: 30%;
+    margin: 200px auto;
+}
+.register-form{
+    width: 40%;
+    margin: 200px auto;
+    background-color: #1F2933;
+}
+.form-title-container{
+    margin-bottom: 10px;
+    padding: 15px;
+    border-bottom: 10px #68AAEA solid;
+}
+.form-content2-container{
+    display: inline-block;
+    vertical-align: top;
+    width: 55%;
+}
+.form-image-container{
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    padding: 40px;
+}
+.form-field-1{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 25px;
+    border: 2px #7690AB solid;
+    box-shadow: 0px 0px 10px #7690AB;
+    font-family: 'Segoe UI';
+    font-size: 24px;
+}
+.form-field-2{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 2px #68AAEA dotted;
+    border-radius: 10px;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+}
+.form-field-container{
+    padding: 10px;
+}
+textarea.form-field-1{
+    min-height: 200px;
+    resize: vertical;
+}
+.halved{
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+    margin-right: 4%;
+}
+.halved:last-of-type{
+    margin-right: 0;
+}
+.form-button-container{
+    text-align: center;
+}
+.form-button{
+    width: 100px;
+    padding: 25px 15px;
+    background-color: #1F2933;
+    border: none;
+    color: white;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium';
+}
+.register-btn{
+    width: auto;
+    padding: 15px;
+    background-color: #68AAEA;
+    border-bottom: 5px #7690AB solid;
+}
+.login-btn{
+    width: auto;
+    padding: 15px;
+    border-bottom: 5px #68AAEA solid;
+}
+.bg-delete{
+    background-color: #800000;
+}
+

@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium';
+}
+.header{
+    padding: 20px 10px;
+    background-color: #1F2933;
+    border-bottom: 8px #5C646B solid;
+}
+.footer{
+    margin-top: 50px;
+    background-color: #1F2933;
+    min-height: 250px;
+}
+.main-section{
+    padding: 20px 10px;
+    background-color: #68AAEA;
+    text-align: center;
+}
+.info-content{
+    margin: auto; 
+    width: 1200px;
+}
+.logo-header-container{
+    display: inline-block;
+    vertical-align: middle;
+    width: 10%;
+}
+.header-menu-container{
+    display: inline-block;
+    vertical-align: middle;
+    width: 90%;
+    text-align: right;
+}
+.h-menu-c-container{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+.h-menu-button{
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: #68AAEA;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+.h-menu-button:hover{
+    box-shadow: 0px 0px 5px white;
+    filter: brightness(1.2);
+    scale: 105%;
+}
+.btn-nav-title{
+    transition: 0.25s ease-in-out;
+}
+.btn-nav-title:hover{
+    text-shadow: white 0px 0px 5px;
+    scale: 105%;
+}
+.banner{
+    background-image: url("../res/media/img/banner_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1F2933;
+}
+.banner-backdrop{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.banner-container{
+    padding: 15px;
+    text-align: center;
+}
+.banner-card-container{
+    width: 60%;
+    padding: 50px 0px;
+    margin: auto;
+    animation-name: normalFadeIn;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+@keyframes normalFadeIn{
+    0%{
+        opacity: 0;
+        filter: blur(5px);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.nav-menu{
+    padding: 20px 10px;
+    background-color: #7690AB;
+}
+.nav-menu-container{
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav-menu-button{
+    display: inline-block;
+    width: 150px;
+    padding: 15px 0;
+    border-bottom: 12px #7690AB solid;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+.main-card{
+    padding: 30px;
+}
+.main-card-info{
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+    padding: 20px 40px;
+    text-align: right;
+}
+.main-card-media-container{
+    display: inline-block;
+    vertical-align: middle;
+    width: 60%;
+}
+.card-video{
+    width: 100%;
+    min-height: 400px;
+    border-bottom: 30px #1F2933 solid;
+    border-radius: 20px;
+}
+.nav-menu-button:hover{
+    border-bottom: 12px #68AAEA solid;
+}
+.map-container{
+    margin: 20px 0;
+}
+.map-card{
+    background-color: #7690AB;
+    padding: 30px;
+    padding-bottom: 60px;
+    border-radius: 20px;
+}
+#map1{
+    border-radius: 20px;
+    width: 100%;
+}
+#foto-1{
+    width: 100%;
+}
+.labeled{
+    margin-right: 10px;
+}
+.centered{
+    margin: auto;
+    text-align: center;
+}
+.main-title{
+    margin-bottom: 5px;
+    font-size: 56px;
+    font-family: 'Franklin Gothic Medium';
+}
+.big4-text{
+    margin-bottom: 5px;
+    font-weight: 100;
+    font-size: 35px;
+}
+.big3-text{
+    margin-bottom: 5px;
+    font-weight: 100;
+    font-size: 30px;
+}
+.big-text{
+    margin-bottom: 5px;
+    font-weight: 100;
+    font-size: 22px;
+}
+.mid5-text{
+    margin-bottom: 5px;
+    font-size: 18px;   
+}
+.mid5-text-2{
+    font-family: Verdana
+}
+.bg-white{
+    background-color: white;
+}
+.bg-black{
+    background-color: black;
+}
+.bg-theme1{
+    background-color: #68AAEA;
+}
+.bg-theme2{
+    background-color: #7690AB;
+}
+.bg-theme3{
+    background-color: #5C646B;
+}
+.bg-theme4{
+    background-color: #1F2933;
+}
+.fc-white{
+    color: white;
+}
+.fc-theme1{
+    color: #68AAEA;
+}
+.fc-theme2{
+    color: #7690AB;
+}
+.fc-theme3{
+    color: #5C646B;
+}
+.fc-theme4{
+    color: #1F2933;
+}
