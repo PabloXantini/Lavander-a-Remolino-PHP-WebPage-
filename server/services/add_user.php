@@ -32,7 +32,7 @@
         </script>';
         exit();
     }
-    $check_user = "SELECT * FROM clientes WHERE email = '$username'";
+    $check_user = "SELECT * FROM clientes WHERE email = '$new_email'";
     $check_query = mysqli_query($CONNECTION, $check_user);
 
     if(mysqli_num_rows($check_query) > 0){

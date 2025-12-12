@@ -2,7 +2,7 @@
     <div class="logo-header-container">
     </div>
     <div class="form-content-container">
-        <form action="auth_user.php" method="post" id="login_form">
+        <form action="../server/auth_user.php" method="post" id="login-form">
             <div class="form-title-container centered">
                 <h1 class="big3-text">Iniciar sesión</h1>
             </div>
